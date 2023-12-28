@@ -2,7 +2,7 @@ import { useRef, useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import io from "socket.io-client";
 
-const socket = io.connect("http://localhost:5000");
+const socket = io.connect("https://taskke-aviknayak22.vercel.app/");
 
 const Comments = () => {
   const commentRef = useRef();
