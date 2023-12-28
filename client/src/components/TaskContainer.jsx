@@ -8,7 +8,7 @@ const TaskContainer = ({ socket }) => {
   useEffect(() => {
     const getData = async () => {
       try {
-        const data = await fetch("http://localhost:5000/api");
+        const data = await fetch("https://taskke-aviknayak22.vercel.app/api");
         const json = await data.json();
         setTasks(json);
       } catch (error) {
