@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
 * {
   font-family: 'Manrope', sans-serif;
   box-sizing: border-box;
 }
+
 a {
   text-decoration: none;
 }
+
 body {
   margin: 0;
   padding: 0;
+  background-color: #1a1a1a; /* Dark background color */
+  color: #dcdcdc; /* Light text color */
 }
+
 .navbar {
   width: 100%;
-  background-color: #e1eef3;
+  background-color: #4b0082; /* Dark purple */
+  color: #dcdcdc;
   height: 10vh;
   border-bottom: 1px solid #ddd;
   display: flex;
@@ -20,27 +27,34 @@ body {
   justify-content: space-between;
   padding: 20px;
 }
+
 .form__input {
   min-height: 20vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .input {
   margin: 0 5px;
   width: 50%;
   padding: 10px 15px;
+  background-color: #2f2f2f; /* Dark input background */
+  color: #dcdcdc; /* Light input text color */
+  border: 1px solid #333; /* Dark input border */
 }
+
 .addTodoBtn {
   width: 150px;
   padding: 10px;
   cursor: pointer;
-  background-color: #010200;
-  color: #fff;
+  background-color: #483d8b; /* Dark slate blue */
+  color: #dcdcdc;
   border: none;
   outline: none;
   height: 43px;
 }
+
 .container {
   width: 100%;
   min-height: 100%;
@@ -59,21 +73,27 @@ body {
   flex-direction: column;
   padding: 5px;
 }
+
 .ongoing__wrapper > h3,
 .pending__wrapper > h3,
 .completed__wrapper > h3 {
   text-align: center;
   text-transform: capitalize;
+  color: #8a2be2; /* Dark slate blue */
 }
+
 .pending__items {
-  background-color: #f3d0c8;
+  background-color: #b33263;
 }
+
 .ongoing__items {
-  background-color: #d4eef5;
+  background-color: #008080; /* Purple */
 }
+
 .completed__items {
-  background-color: #83dad7;
+  background-color: #29b367; /* Dark orchid */
 }
+
 .pending__container,
 .ongoing__container,
 .completed__container {
@@ -82,9 +102,10 @@ body {
   display: flex;
   flex-direction: column;
   padding: 5px;
-  border: 1px solid #ddd;
+  border: 1px solid #333; /* Dark border color */
   border-radius: 5px;
 }
+
 .pending__items,
 .ongoing__items,
 .completed__items {
@@ -93,18 +114,22 @@ body {
   margin-bottom: 10px;
   padding: 15px;
 }
+
 .comment {
   text-align: right;
   font-size: 14px;
   cursor: pointer;
-  color: rgb(85, 85, 199);
+  color: #dda0dd; /* Plum */
 }
+
 .comment:hover {
   text-decoration: underline;
 }
+
 .comments__container {
   padding: 20px;
 }
+
 .comment__form {
   width: 100%;
   display: flex;
@@ -113,24 +138,32 @@ body {
   flex-direction: column;
   margin-bottom: 30px;
 }
+
 .comment__form > label {
   margin-bottom: 15px;
+  color: #dda0dd;
 }
+
 .comment__form textarea {
   width: 80%;
   padding: 15px;
   margin-bottom: 15px;
+  background-color: #2f2f2f;
+  color: #dcdcdc;
+  border: 1px solid #333;
 }
+
 .commentBtn {
   padding: 10px;
   width: 200px;
-  background-color: #18597e;
+  background-color: #800080; /* Purple */
   outline: none;
   border: none;
-  color: #fff;
+  color: #dcdcdc;
   height: 45px;
   cursor: pointer;
 }
+
 .comments__section {
   width: 100%;
   display: flex;
@@ -147,17 +180,24 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .login__form > label {
   margin-bottom: 15px;
+  color: #dda0dd;
 }
+
 .login__form > input {
   width: 70%;
   padding: 10px 15px;
   margin-bottom: 15px;
+  background-color: #2f2f2f;
+  color: #dcdcdc;
+  border: 1px solid #333;
 }
+
 .login__form > button {
-  background-color: #367e18;
-  color: #fff;
+  background-color: #483d8b;
+  color: #dcdcdc;
   padding: 15px;
   cursor: pointer;
   border: none;
