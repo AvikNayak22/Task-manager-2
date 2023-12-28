@@ -2,6 +2,8 @@
 
 Taskke is a task management application that allows users to organize their tasks, add comments, and collaborate in real-time using WebSocket communication.
 
+![Taskke](https://github.com/AvikNayak22/Taskke/assets/110925067/ee238773-8e83-4e6e-b570-c93f95a6c92f)
+
 ## Features
 
 - **Task Management:** Add, organize, and manage tasks seamlessly.
