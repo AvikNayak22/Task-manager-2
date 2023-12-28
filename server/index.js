@@ -61,7 +61,7 @@ let tasks = {
 
 const io = new Server(server, {
   cors: {
-    origin: https://taskke-frontend.vercel.app",
+    origin: "https://taskke-frontend.vercel.app",
     methods: ["GET", "POST"]
   }
 });
