@@ -5,12 +5,10 @@ const server = http.createServer(app);
 const { Server } = require("socket.io");
 const cors = require("cors");
 
-app.use(cors(
-  {
-    origin: ["https://taskke-frontend.vercel.app"],
-    methods: ["POST","GET"]
-  }
-));
+let corsOptions = { 
+   origin : ["https://taskke-frontend.vercel.app"], 
+} 
+app.use(cors(corsOptions));
 
 const UID = () => Math.random().toString(36).substring(2, 10);
 
